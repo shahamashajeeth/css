@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTMLdivtag</title>
+  <style>
+  #contentinfo{
+    line-height:10;
+    margin:50px;
+    padding-bottom:50px;
+    text-align:center;
+    width:200;
+    color:blue;
+  }
+  #corner{
+    border-radius:15px/50px;
+    background: #73AD21;
+    padding:20px;
+    width:200px;
+    height:200px;
+  }
+  #corner2{
+      border-radius:50%;
+      background: blue;
+      float:right;
+      padding:20px;
+      width:300px;
+      height:300px;
+    }
+    #corner4{
+        border-radius:50px;
+        background: yellow;
+        padding:20px;
+        width:300px;
+        height:300px;
+      }
+    #corner3{
+      border-radius:35px;
+      background:url(hi.png);
+      background-position:left;
+      background-repeat:repeat;
+      padding:150px;
+      width:200px;
+      height:100px;
+  }
+  #corner5{
+    border-radius:35px;
+    background:url(smily.png);
+    background-position:right top;
+    background-repeat:repeat;
+    padding:100px;
+    width:100px;
+    height:100px;
+}
+#run
+{
+          width: 100px;
+          height: 100px;
+          background: red;
+          position: relative;
+          -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+          animation: mymove 5s infinite;
+      }
+
+      /* Safari 4.0 - 8.0 */
+      @-webkit-keyframes mymove {
+          from {left: 50px;}
+          to {left: 500px;}
+      }
+
+      @keyframes mymove {
+          from {left: 50px;}
+          to {left: 500px;}
+      }
+  #animation
+      {
+          width: 100px;
+          height: 100px;
+          background: red;
+          position: relative;
+          -webkit-animation: myfirst 5s infinite; /* Safari 4.0 - 8.0 */
+          -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+          animation: myfirst 5s infinite;
+          animation-direction: alternate;
+      }
+
+      /* Safari 4.0 - 8.0 */
+      @-webkit-keyframes myfirst {
+          0%   {background: red; left: 0px; top: 0px;}
+          25%  {background: yellow; left: 200px; top: 0px;}
+          50%  {background: blue; left: 200px; top: 200px;}
+          75%  {background: green; left: 0px; top: 200px;}
+          100% {background: red; left: 0px; top: 0px;}
+      }
+
+      @keyframes myfirst {
+          0%   {background: red; left: 0px; top: 0px;}
+          25%  {background: yellow; left: 200px; top: 0px;}
+          50%  {background: blue; left: 200px; top: 200px;}
+          75%  {background: green; left: 0px; top: 200px;}
+          100% {background: red; left: 0px; top: 0px;}
+      }
+  </style>
+</head>
+<body>
+  <div id="contentinfo">
+    <p>Hello summer! I hate you</p></div>
+    <div id="corner">hey!
+  </div><br>
+  <div id="corner4">It's me</div>
+  <br>
+  <div id="corner2">
+    damn it</div>
+    <br>
+    <div id="corner3">OMG</div>
+    <br><div id="corner5">
+      hi</div>
+      <br>
+      <br>
+<div id="run">
+  Hey
+</div>
+<br>
+<br>
+<br>
+<div id="animation">
+  how is it</div>
+</body>
+</html>
